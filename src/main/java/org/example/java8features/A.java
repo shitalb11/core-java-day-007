@@ -7,7 +7,11 @@ public class A {
         }
 
         class WhatsApp extends MessageService{
-
+            public void send(String message) {
+                System.out.println("sending message using wp: "+ message);
+            }
         }
+        MessageService service = new WhatsApp();
+        service.send("Good Morning");
     }
 }
