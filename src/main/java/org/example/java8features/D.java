@@ -11,5 +11,15 @@ public class D {
                 System.out.println("hello world");
             }
         }
+        UserService userService = new UserServiceImpl();
+        userService.sayHello();
+
+        UserService anonymousService =new UserService() {
+            @Override
+            public void sayHello() {
+                System.out.println("hello Anonymous");
+            }
+        };
+        anonymousService.sayHello();
     }
 }
