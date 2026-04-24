@@ -37,5 +37,12 @@ public class F {
         UserService otpService = new OtpService();
         UserService tokenService = new TokenService();
 
+        authentication.login();
+        otpService.login();
+        tokenService.login();
+
+        authentication.logout();
+        otpService.logout();
+        tokenService.logout();
     }
 }
