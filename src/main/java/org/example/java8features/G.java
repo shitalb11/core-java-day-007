@@ -23,9 +23,21 @@ public class G {
                 System.out.println("Method 1 overridden in A");
             }
 
+            @Override
+            public void method2(){
+                System.out.println("Method 2 overridden in A");
+            }
 
+            @Override
+            public void display(){
+                Interface1.super.display();
+                Interface2.super.display();
+            }
         }
 
-
+        A a = new A();
+        a.method1();
+        a.method2();
+        a.display();
     }
 }
