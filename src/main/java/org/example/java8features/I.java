@@ -14,7 +14,7 @@ public class I {
         class Worker implements Runnable{
             @Override
             public void run(){
-                System.out.println("running - traditional way");
+                System.out.println("running using traditional way");
             }
         }
         Runnable worker = new Worker();
@@ -24,11 +24,15 @@ public class I {
         Runnable anonymous = new Runnable() {
             @Override
             public void run() {
-                System.out.println("running - anonymous way");
+                System.out.println("running using anonymous way");
             }
         };
         anonymous.run();
 
-
+        //3.lambda expression
+        Runnable lambda = () ->{
+            System.out.println("running using anonymous way");
+        };
+        lambda.run();
     }
 }
