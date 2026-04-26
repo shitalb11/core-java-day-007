@@ -10,6 +10,15 @@ public class I {
                 System.out.println("display - Functional Interface");
             }
         }
+        //1.traditional way
+        class Worker implements Runnable{
+            @Override
+            public void run(){
+                System.out.println("running - traditional way");
+            }
+        }
+        Runnable worker = new Worker();
+        worker.run();
 
 
     }
