@@ -20,6 +20,15 @@ public class I {
         Runnable worker = new Worker();
         worker.run();
 
+        //2.Anonymous class
+        Runnable anonymous = new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("running - anonymous way");
+            }
+        };
+        anonymous.run();
+
 
     }
 }
