@@ -15,6 +15,16 @@ public class J {
         B b = x -> System.out.println("m2" + x);
         b.m2(10);
 
+        interface C{
+            int m3();
+        }
+        C c = () ->3;
+        System.out.println(c.m3());
 
+        interface D{
+            int m4(int number);
+        }
+        D d = x-> x * x;
+        System.out.println(d.m4(10));
     }
 }
