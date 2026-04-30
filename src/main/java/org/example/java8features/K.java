@@ -8,7 +8,9 @@ public class K {
         NumberProcessor square = (int number) -> {
             return number * number;
         };
+        System.out.println("square is = "+ square.process(5));
 
-
+        NumberProcessor cube = number -> number*number*number;
+        System.out.println("cube is = " + cube.process(5));
     }
 }
