@@ -9,6 +9,8 @@ public class O {
         Predicate<Integer> isEven = (Integer input) -> input % 2 == 0;
         System.out.println("is even test : " + isEven.test(10));
 
+        Predicate<String> startsWithA = (String str)->str.startsWith("A");
+        System.out.println(startsWithA.test("Abc"));
 
 
     }
