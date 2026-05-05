@@ -12,6 +12,6 @@ public class O {
         Predicate<String> startsWithA = (String str)->str.startsWith("A");
         System.out.println(startsWithA.test("Abc"));
 
-
+        System.out.println(startsWithA.test("xyz"));
     }
 }
