@@ -7,6 +7,6 @@ public class Q {
             Function<String, Integer> function = (String str) -> {
                 return str.length();
             };
-            System.out.println("String length is "+function.apply("IT Shaala"));
+            System.out.println("String length is "+function.apply("Shital Bhosale"));
     }
 }
