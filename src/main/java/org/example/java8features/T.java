@@ -5,6 +5,7 @@ public class T {
             interface NumberProcessor{
                   int add(int number1, int number2);
             }
+
             //1.traditional way
             class NumberProcessorImpl implements NumberProcessor{
                 @Override
@@ -37,12 +38,9 @@ public class T {
 
             NumberProcessor ref2 = Integer::sum;
             System.out.println("Method reference way2 " + ref2.add(100, 200));
-
-
-
     }
 
-    private static int sumOfTwoNumbers(int number1, int number2) {
+        private static int sumOfTwoNumbers(int number1, int number2) {
         return number1+number2;
     }
 }
