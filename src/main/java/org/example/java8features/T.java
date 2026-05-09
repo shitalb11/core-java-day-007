@@ -31,6 +31,15 @@ public class T {
             System.out.println("Method reference way =" + ref.add(100,200));
 
 
+            //4.Method reference way
+            NumberProcessor ref1 = T::sumOfTwoNumbers;
+            System.out.println("Method reference way1 =" + ref1.add(100, 200));
+
+            NumberProcessor ref2 = Integer::sum;
+            System.out.println("Method reference way2 " + ref2.add(100, 200));
+
+
+
     }
 
     private static int sumOfTwoNumbers(int number1, int number2) {
