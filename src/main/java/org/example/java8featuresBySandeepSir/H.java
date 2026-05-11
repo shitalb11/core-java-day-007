@@ -1,4 +1,4 @@
-package org.example.java8features;
+package org.example.java8featuresBySandeepSir;
 
 public class H {
     public static void main(String[] args) {
