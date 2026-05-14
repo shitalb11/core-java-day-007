@@ -1,6 +1,6 @@
 package org.example.java8featuresBySelf;
 
-public class B_Lambda_with_Parameters {
+public class B_lambdaWithParameters {
 
     interface Add {
         int addition(int a, int b);
