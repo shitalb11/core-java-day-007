@@ -1,7 +1,7 @@
 package org.example.java8featuresBySelf;
 
 
-public class C_functionalInterface {
+public class C_functional_Interface {
 
 @FunctionalInterface
 interface Square{

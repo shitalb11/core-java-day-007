@@ -1,6 +1,6 @@
 package org.example.java8featuresBySelf;
 
-public class A_lambdaExpression {
+public class A_lambda_Expression {
 
     interface Demo{
         void show();
