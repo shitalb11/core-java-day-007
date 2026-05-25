@@ -1,5 +1,12 @@
 package org.example.java8featuresBySelf;
 
-public class R_Count_Elements {
+import java.util.Arrays;
+import java.util.List;
 
+public class R_Count_Elements {
+    public static void main(String[] args) {
+        List<String> names = Arrays.asList("Ram", "Ravi", "Sham", "Rohan");
+
+
+    }
 }
