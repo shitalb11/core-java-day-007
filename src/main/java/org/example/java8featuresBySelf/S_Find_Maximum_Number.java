@@ -8,6 +8,9 @@ public class S_Find_Maximum_Number {
         List<Integer> nums = Arrays.asList(10,20,30,40,50,60);
 
         int max=nums.stream()
+                .max(Integer::compare)
+                .get();
 
+        System.out.println(max);
     }
 }
